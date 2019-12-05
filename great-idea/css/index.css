@@ -134,12 +134,16 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/* ====== Generla Tags ====== */
+/* ====== General Tags ====== */
 
 
 nav {
+	display: flex;
 	text-align: center;
-	margin-top: -4%
+	margin-top: -4%;
+	
+	justify-content: space-around;
+
 	
 }
 
@@ -152,7 +156,8 @@ a {
 
 header {
 height: 10%;
-margin-bottom: -80px;;
+margin-bottom: 10%;
+
 }
 
 
@@ -174,48 +179,70 @@ footer {
 
 
 .logo-container {
-	display: inline-block;
-	height: 20%;
-	width: 20%;
+	display: flex;
+	height: 3em;
+	width:10%;
+	margin-top: 3%;
 	
 }
 
+.header-content{
+	
+display: flex;
+justify-content: space-around;
+margin-top: 3%
+}
+
+.large-slogan-div {
+	display: flex;
+	height: 100%;
+	width: 50%;
+	justify-content: center
+
+}
+
  .large-slogan {
-	display: inline-block;
+	display: flex;
 	margin-left: 18%;
 	margin-top: 10%;
-	/* border: 3px solid red; */
-	width: 26%;
+	width: 1000%;
+	height: 26%;
 	text-align: center;
-	
+	flex-direction: column;
+	justify-content: center;
  }
 
  .large-slogan h1 {
-	font-size:90px;
+	font-size:100px;
+
  }
 
 .get-started {
 	
 	font-size:25px;
 	border: 2px solid gray;
-	width: 50%;
+	width: 25%;
+	height: 25%;
 	margin: 0 auto
+}
+
+.code-snippet-div {
+	display:  flex;
+	justify-content: space-between;
+	align-items: center;
 }
 	
 .code-snippet{
-	position: relative;
-	left: 30%;
-	bottom: 20em;
-	display: inline-block;
-	margin-left: 35%;
-	margin-top: -3%;
-	
+	 margin-bottom: 0;  
+	 margin-left:  29%;
+	 height: 30em;
+	 width: 40em;
+    
 }
 
 
 
  .features {
-	display: inline-block;
 	width:40%;
 	height: 10em;
 	
@@ -223,22 +250,21 @@ footer {
 } 
 
 .about {
-	display: inline-block;
 	width: 50%;
 	height: 10em;
 	padding-left: 10%
 } 
 
 .first-content-group {
-padding-top: 1%;
-margin-left: 5%;
-margin-top: 5%;
+	display: flex;
+margin-top: 5%; 
+justify-content: center;
 
 font-size: 19px;
 }
 
 .gallery {
-  width: 86%;
+  width: 90%;
   margin-left: 5%
 
 }
@@ -249,33 +275,33 @@ font-size: 19px;
 }
 
 .services {
-	display: inline-block;
 	width: 30%;
 	height: 10em;
-	padding-left: 10%
+	
 }
 
 .product {
-	display: inline-block;
 	width: 30%;
 	height: 10em;
-	padding-left: 10%
+	padding-left: 5%
 }
 
 .vision {
-	display: inline-block;
 	width:30%;
 	height: 10em;
-	padding-left: 10%;
+	padding-left: 5%;
 	
 	
 }
 
 .last-content-group {
+	display: flex;
+	justify-content: center;
 	font-size: 19px;
-	/* margin-left: 8%; */
 	margin-top: 5%;  
-	margin-left: -5%;
+	
+	
+	
 
 	
 }
