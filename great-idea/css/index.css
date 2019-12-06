@@ -100,9 +100,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+/* ol, ul {
+	list-style: none; */
+/* } */
 blockquote, q {
 	quotes: none;
 }
@@ -141,10 +141,7 @@ nav {
 	display: flex;
 	text-align: center;
 	margin-top: -4%;
-	
-	justify-content: space-around;
-
-	
+    justify-content: space-around;
 }
 
 a {
@@ -311,3 +308,161 @@ footer p {
 	text-align: center;
 	margin-top: 5%;
 }
+
+
+/* ==== Services Begins Here ====*/
+
+/* ==== General Tags ==== */
+
+
+
+ .page-two-header {
+	/* border: 2px solid red; */
+	height: 100%;
+	width: 100%;
+	padding-top: 4%
+	
+}
+
+
+
+
+
+
+
+.wrapper2 {
+	padding: 2%
+}
+ 
+
+.nav2 {
+	
+	
+	width: 100%;
+	display: flex;
+	justify-content:  flex-start;
+	font-size: 19px;
+	font-weight: bold;
+	color: grey;
+	
+}
+
+
+
+
+.great-idea-logo-div {
+	display: flex;
+	justify-content: center;
+	height:100%;
+	width: 100%;
+	margin-left: 8%;
+	margin-top: 2.7%
+
+}
+
+.great-idea-logo-div img {
+height:100%;
+width:125%;
+
+}
+
+
+
+.services-img-div {
+	height: 200%;
+    width: 100%;
+}
+
+.services-img-div img {
+	width: 100%;
+}
+
+.services-header, p {
+/* border: 2px solid red; */
+margin-top: 1%;
+font-size: 19px;
+line-height: 130%;
+
+
+}
+
+.services-header h1{
+	font-size: 30px;
+}
+
+.services-div {
+	display: flex;
+	flex-direction: row;
+	width: 140%;
+	height:100%;
+	flex-wrap: wrap;
+	
+   
+}
+
+/* children must be smaller than their parents or they cant sit side by side  */
+.content-div{
+	border: 2px solid black;
+	background-color: #F3F1F2;
+	padding: 2em;
+	height: 25%;
+	width:25%;
+	margin: 5%;
+	line-height: 130%;
+	
+	
+}
+
+.content-div h2{
+	font-size: 19px;
+	
+}
+
+.btn {
+	border: 1px solid black;
+	width: 20%;
+	background-color: white;
+	border-radius: 8%;
+	margin-top: 5%;
+	height: 2em;
+	width:6em;
+	text-align: center; 
+	padding-top: .4em;
+
+	
+}
+
+.about-us-div {
+	border: 2px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+
+}
+
+.about-us-section{
+	border: 2px solid blue;
+	width: 50%;
+	height: 50%;
+	font-size: 19px;
+	line-height: 130%;
+	margin: 1%;
+	margin-right: 4%;
+}
+
+.about-us-img-div {
+	border: 2px solid yellow;
+	width:50%;
+	padding-top: 1%;
+}
+
+.about-us-img-div img {
+	width: 100%
+}
+
+ul {
+	border: 2px solid red;
+	
+
+}
+
